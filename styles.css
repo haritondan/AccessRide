@@ -1,45 +1,51 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #ccc;
 }
 
 header {
   background-color: #333;
-  color: #fff;
+  color: #ccc;
   padding: 20px 0;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 nav {
   background-color: #444;
   padding: 10px 20px;
   text-align: center;
+  font-size: 2rem;
 }
 
 nav a {
-  color: #fff;
+  color: #ccc;
   text-decoration: none;
   margin: 0 10px;
 }
 
 .hero {
-  background-image: url('hero-placeholder.jpg');
+  background-color: #ccc;
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: #333;
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 0px;
 }
 
-.hero h2 {
+.hero h2{
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
+
+h2 {
+  font-size: 2.5rem;
+}
+
 
 .section {
   padding: 80px 20px;
@@ -80,6 +86,7 @@ label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #ccc;
 }
 
 input[type="text"],
@@ -92,8 +99,8 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #025cbb;
+  color: #d4d4d4;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -104,4 +111,28 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+.section-text {
+  font-size: 1.5rem; /* Increased font size */
+  line-height: 1.6;
+  color: #333; /* White text color */
+}
+
+/* Different background colors for the About and Contact sections */
+#about {
+  background-color: #007bff; /* Blue background color */
+}
+
+#contact {
+  background-color: #6c757d; /* Gray background color */
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
 }
