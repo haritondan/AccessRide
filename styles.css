@@ -46,8 +46,9 @@ nav a {
 }
 
 .hero h2 {
+  font-weight: 900;
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .hero-text {
@@ -88,6 +89,46 @@ nav a {
   color: #fff; /* Text color */
   padding: 80px 20px; /* Padding for top and bottom */
 }
+
+/* Our Services Section */
+#services {
+  padding: 80px 20px; /* Padding for top and bottom */
+  text-align: center; /* Center-align content */
+}
+
+.service {
+  display: inline-block; /* Display items inline */
+  margin: 0 20px; /* Add space between service items */
+  vertical-align: top; /* Align items at the top */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.service img {
+  width: 250px; /* Set a fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper alignment */
+  margin: 0 auto 10px; /* Add space below image and center horizontally */
+}
+
+.service h3 {
+  font-size: 2rem; /* Adjust heading size */
+  margin-top: 10px; /* Add space above heading */
+  font-weight: 900;
+}
+
+.service p {
+  font-size: 1.3rem; /* Adjust paragraph size */
+  margin-top: 5px; /* Add space above paragraph */
+}
+
+.service:hover {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
+
+
+
+
 /* Form Styling */
 .form-group {
   margin-bottom: 20px;
