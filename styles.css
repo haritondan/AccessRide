@@ -1,24 +1,31 @@
+/* General Styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header */
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 40px 0; /* Increased padding for top and bottom */
   text-align: center;
 }
 
 header h1 {
   font-size: 3rem;
+  margin: 0;
+  padding: 20px;
 }
 
+
+/* Navigation */
 nav {
   background-color: #444;
   padding: 10px 20px;
   text-align: center;
-  font-size: 1.8rem;
 }
 
 nav a {
@@ -27,22 +34,83 @@ nav a {
   margin: 0 10px;
 }
 
+/* Hero Section */
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #ccc;
-  background-size: cover;
-  background-position: center;
   color: #333;
-  text-align: center;
-  padding: 80px 0px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
   font-size: 3rem;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
-h2 {
+.hero-text {
+  width: 50%;
+  padding: 20px;
+}
+
+.hero-image {
+  width: 50%;
+  height: 400px;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Section Styling */
+.section {
+  padding: 80px 20px;
+}
+
+.section h2 {
   font-size: 2.5rem;
   font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
+.section-text {
+  text-align: center;
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
