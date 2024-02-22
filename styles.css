@@ -24,14 +24,14 @@ header h1 {
 /* Navigation */
 nav {
   background-color: #444;
-  padding: 10px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 10px 10px;
+  margin: 20px 20px;
   padding: 20px;
   font-size: 1.3rem;
 }
@@ -48,12 +48,12 @@ nav a {
 .hero h2 {
   font-weight: 900;
   font-size: 3rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .hero-text {
   width: 50%;
-  padding: 100px;
+  padding: 125px;
   font-size: 1.3rem;
 }
 
@@ -66,6 +66,20 @@ nav a {
   padding-left: 100px;
 }
 
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px; /* Increase padding for larger button */
+  text-decoration: none;
+  font-size: 1.3rem; /* Adjust font size */
+  border-radius: 5px;
+  margin-top: 30px; /* Move the button a bit lower */
+}
+
+.button:hover {
+  background-color: #555; /* Darken button color on hover */
+}
 /* Section Styling */
 .section {
   padding: 80px 20px;
@@ -92,7 +106,7 @@ nav a {
 
 /* Our Services Section */
 #services {
-  padding: 80px 20px; /* Padding for top and bottom */
+  padding: 30px 20px; /* Padding for top and bottom */
   text-align: center; /* Center-align content */
 }
 
@@ -126,38 +140,58 @@ nav a {
 }
 
 
+/* Contact Us Section */
+#contact {
+  background-color: #444;
+  color: #ccc;
+  padding: 80px 20px;
+  text-align: center;
+}
 
+#contact form {
+  max-width: 500px; /* Adjusted maximum width for the form */
+  margin: 0 auto;
+}
 
-
-/* Form Styling */
 .form-group {
+  margin-top: 20px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 60%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 100%; /* Make form inputs fill the container width */
+  border-radius: 5px;
   box-sizing: border-box;
+  font-size: 1.3rem; /* Reduced font size for inputs */
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 2px; /* Increased space below labels */
 }
 
 form input[type="submit"] {
   background-color: #333;
-  color: #fff;
+  color: #ccc;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   cursor: pointer;
+  font-size: 1.6rem;
+  border-radius: 5px;
 }
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
 
 /* Footer */
 footer {
   background-color: #333;
-  color: #fff;
+  color: #ccc;
   text-align: center;
   padding: 20px 0;
 }
