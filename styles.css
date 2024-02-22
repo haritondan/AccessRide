@@ -31,7 +31,9 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 10px 10px;
+  padding: 20px;
+  font-size: 1.3rem;
 }
 
 /* Hero Section */
@@ -39,7 +41,6 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ccc;
   color: #333;
   padding: 80px 20px;
 }
@@ -51,15 +52,17 @@ nav a {
 
 .hero-text {
   width: 50%;
-  padding: 20px;
+  padding: 100px;
+  font-size: 1.3rem;
 }
 
 .hero-image {
   width: 50%;
-  height: 400px;
+  height: 550px;
   background-color: #f5f5f5;
   background-size: cover;
   background-position: center;
+  padding-left: 100px;
 }
 
 /* Section Styling */
@@ -76,8 +79,15 @@ nav a {
 
 .section-text {
   text-align: center;
+  font-size: 1.3rem;
 }
 
+/* About Us Section */
+#about {
+  background-color: #444; /* Same color as the navigation */
+  color: #fff; /* Text color */
+  padding: 80px 20px; /* Padding for top and bottom */
+}
 /* Form Styling */
 .form-group {
   margin-bottom: 20px;
@@ -86,7 +96,7 @@ nav a {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 100%;
+  width: 60%;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 15px;
