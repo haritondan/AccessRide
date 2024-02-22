@@ -1,12 +1,11 @@
-/* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ccc;
+  background-color: #f5f5f5;
 }
 
 header {
   background-color: #333;
-  color: #ccc;
+  color: #fff;
   padding: 20px 0;
   text-align: center;
 }
@@ -19,11 +18,11 @@ nav {
   background-color: #444;
   padding: 10px 20px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 nav a {
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -34,105 +33,16 @@ nav a {
   background-position: center;
   color: #333;
   text-align: center;
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 
-.hero h2{
+.hero h2 {
   font-size: 3rem;
   margin-bottom: 0px;
 }
 
 h2 {
   font-size: 2.5rem;
+  font-weight: 600;
 }
 
-
-.section {
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.service {
-  margin-bottom: 40px;
-}
-
-.service img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.service h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.service p {
-  color: #555;
-}
-
-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #ccc;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button[type="submit"] {
-  background-color: #025cbb;
-  color: #d4d4d4;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-
-.section-text {
-  font-size: 1.5rem; /* Increased font size */
-  line-height: 1.6;
-  color: #333; /* White text color */
-}
-
-/* Different background colors for the About and Contact sections */
-#about {
-  background-color: #007bff; /* Blue background color */
-}
-
-#contact {
-  background-color: #6c757d; /* Gray background color */
-}
-
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  width: 100%;
-}
