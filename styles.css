@@ -70,15 +70,15 @@ nav a:hover{
   display: inline-block;
   background-color: #333;
   color: #fff;
-  padding: 15px 30px; /* Increase padding for larger button */
+  padding: 15px 30px; 
   text-decoration: none;
-  font-size: 1.3rem; /* Adjust font size */
+  font-size: 1.3rem; 
   border-radius: 5px;
-  margin-top: 30px; /* Move the button a bit lower */
+  margin-top: 30px;
 }
 
 .button:hover {
-  background-color: #555; /* Darken button color on hover */
+  background-color: #555; 
 }
 /* Section Styling */
 .section {
@@ -87,7 +87,7 @@ nav a:hover{
 
 .section h2 {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -99,44 +99,51 @@ nav a:hover{
 
 /* About Us Section */
 #about {
-  background-color: #444; /* Same color as the navigation */
-  color: #fff; /* Text color */
-  padding: 80px 20px; /* Padding for top and bottom */
+  background-color: #444; 
+  color: #fff; 
+  padding: 80px 20px;
 }
 
 /* Our Services Section */
 #services {
-  padding: 30px 20px; /* Padding for top and bottom */
-  text-align: center; /* Center-align content */
+  padding: 30px 20px; 
+  text-align: center; 
+  display: flex;  
+  flex-direction: column;
+}
+
+.service-container{
+  display: flex;
+  justify-content: center;
 }
 
 .service {
-  display: inline-block; /* Display items inline */
-  margin: 0 20px; /* Add space between service items */
-  vertical-align: top; /* Align items at the top */
-  cursor: pointer; /* Change cursor to pointer */
+  margin: 0 40px; 
+  cursor: pointer; 
+  display: flex;
+  flex-direction: column;
 }
 
 .service img {
-  width: 250px; /* Set a fixed width for images */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper alignment */
-  margin: 0 auto 10px; /* Add space below image and center horizontally */
+  width: 250px;
+  height: auto; 
+  margin: 0 auto 10px;
 }
 
+
 .service h3 {
-  font-size: 2rem; /* Adjust heading size */
-  margin-top: 10px; /* Add space above heading */
-  font-weight: 900;
+  font-size: 1.8rem; 
+  margin-bottom: 4px;
+  font-weight: bold;
 }
 
 .service p {
-  font-size: 1.3rem; /* Adjust paragraph size */
-  margin-top: 5px; /* Add space above paragraph */
+  font-size: 1.2rem; 
+  
 }
 
 .service:hover {
-  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+  opacity: 0.8; 
 }
 
 /* Location Section */
@@ -144,9 +151,9 @@ nav a:hover{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f5f5f5;
+  background-color: #ebebeb;
   color: #333;
-  padding: 80px 20px; /* Padding for top and bottom */
+  padding: 80px 20px; 
   text-align: center;
 }
 
@@ -164,10 +171,10 @@ nav a:hover{
 }
 
 .location-map {
-  width: calc(50% - 20px); /* Adjusted width with margin */
+  width: calc(50% - 20px);
   height: auto;
-  padding: 20px; /* Add padding to the map container */
-  box-sizing: border-box; /* Include padding in width calculation */
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
 
@@ -180,7 +187,7 @@ nav a:hover{
 }
 
 #contact form {
-  max-width: 500px; /* Adjusted maximum width for the form */
+  max-width: 500px; 
   margin: 0 auto;
 }
 
@@ -193,15 +200,15 @@ nav a:hover{
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  width: 100%; /* Make form inputs fill the container width */
+  width: 100%; 
   border-radius: 5px;
   box-sizing: border-box;
-  font-size: 1.3rem; /* Reduced font size for inputs */
+  font-size: 1.3rem; 
 }
 
 form label {
   display: inline-block;
-  margin-bottom: 2px; /* Increased space below labels */
+  margin-bottom: 2px; 
 }
 
 form input[type="submit"] {
