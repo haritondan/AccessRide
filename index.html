@@ -15,11 +15,23 @@
   <nav>
     <div class="nav-logo">AR</div>
     <div class="nav-links-wrapper">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <button class="sidebar-toggle" onclick="toggleSidebar()">Menu</button>
+    </div>
+  </nav>
+  <div class="sidebar">
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
-    </div>
-  </nav>
+  </div>
+  <script>
+    function toggleSidebar() {
+      var sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('active');
+    }
+  </script>
 
   <div class="hero">
     <div class="hero-text">
