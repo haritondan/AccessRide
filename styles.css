@@ -245,6 +245,56 @@ footer p {
   margin: 0;
 }
 
+/* Mascot Styles */
+.mascot {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Define animations for rotating and tilting */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes tilt {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-5deg); }
+  100% { transform: rotate(5deg); }
+}
+
+/* Apply animations */
+.mascot img {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  animation: rotate 10s linear infinite, tilt 3s ease-in-out infinite alternate;
+}
+
+/* Show the mascot with fade-in animation */
+.mascot.active {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.hidden {
+  display: none;
+}
+
+#welcome-message {
+  position: fixed;
+  bottom: 120px; /* Adjust as needed */
+  right: 120px; /* Adjust as needed */
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 1100; /* Ensure message appears above mascot */
+}
+
+
 /* Media Query for mobile devices */
 @media only screen and (max-width: 600px) {
   .sidebar {
@@ -353,3 +403,5 @@ footer p {
   
   
 }
+
+
