@@ -368,7 +368,7 @@ footer p {
   }
 
   img {
-    max-width: 500px;
+    max-width: 320px;
   }
 
   .service-container{
@@ -377,7 +377,7 @@ footer p {
   }
 
   .service{
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   #location {
@@ -398,7 +398,7 @@ footer p {
   }
 
   iframe{
-    width: 500px;
+    width: 320px;
   }
   
   
