@@ -153,8 +153,20 @@ nav a:hover{
   opacity: 0.8; 
 }
 
+#location, #contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+.section-text {
+  color: #ccc; /* Color for section text */
+}
+/* Adjustments to the map and form containers */
+.location-map, #contact form {
+  margin-top: 20px;
+}
+
 /* Location Section */
-#location {
+/* #location {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -182,11 +194,11 @@ nav a:hover{
   height: auto;
   padding: 20px; 
   box-sizing: border-box; 
-}
+} */
 
 
 /* Contact Us Section */
-#contact {
+/* #contact {
   background-color: #444;
   color: #ccc;
   padding: 80px 20px;
@@ -230,7 +242,7 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #555;
-}
+} */
 
 
 /* Footer */
