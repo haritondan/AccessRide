@@ -8,33 +8,7 @@ body {
 
 
 /* Navigation */
-nav {
-  background-color: #444;
-  display: flex;
-  align-items: center;
-}
 
-.nav-logo{
-  color: #fff;
-  background-color:#333;
-  border-radius: 15px;
-  font-size: 2.4rem;
-  margin: 20px 20px 20px 50px;
-  padding: 10px;
-  font-weight: bold;
-}
-
-nav a{
-  color: #fff;
-  text-decoration: none;
-  margin: 10px 20px;
-  padding: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-nav a:hover{
-  color: #ccc;
-}
 
 .sidebar {
   display: none;
@@ -164,85 +138,6 @@ nav a:hover{
 .location-map, #contact form {
   margin-top: 20px;
 }
-
-/* Location Section */
-/* #location {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #ebebeb;
-  color: #333;
-  padding: 80px 20px; 
-  text-align: center;
-}
-
-.location-text {
-  width: 50%;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.3rem;
-}
-
-.location-text h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-weight: 900;
-}
-
-.location-map {
-  width: calc(50% - 20px);
-  height: auto;
-  padding: 20px; 
-  box-sizing: border-box; 
-} */
-
-
-/* Contact Us Section */
-/* #contact {
-  background-color: #444;
-  color: #ccc;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-#contact form {
-  max-width: 500px; 
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-  width: 100%; 
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-size: 1.3rem; 
-}
-
-form label {
-  display: inline-block;
-  margin-bottom: 2px; 
-}
-
-form input[type="submit"] {
-  background-color: #333;
-  color: #ccc;
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  font-size: 1.6rem;
-  border-radius: 5px;
-}
-
-form input[type="submit"]:hover {
-  background-color: #555;
-} */
 
 
 /* Footer */
